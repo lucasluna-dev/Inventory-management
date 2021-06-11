@@ -133,12 +133,13 @@ div.menu{
     padding:10px ;
     border-bottom: 1px solid white;
     text-align: left;
+    font-size: 17px;
 }
 
 div.menu a{
   color: white;
   text-decoration:none;
-  font-size: 20px;
+  font-size: 18px;
   padding-left: 15px;
   display: block;
   padding: 6px;
@@ -199,8 +200,7 @@ border-radius: 6px;
 .content-plus3{
     width: 100%;
     color: white;
-    
-    padding-left:4px;
+    padding: 2px;
 }
 
 .content-plus2 label{
