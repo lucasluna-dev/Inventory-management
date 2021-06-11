@@ -10,9 +10,9 @@ fecharMenu.addEventListener('click',function(){
     var menu = document.querySelector('.menu');
     if(header.classList.contains('header-normal')){
         header.classList.remove('header-normal');
-        content.style.width="calc(100% - 250px)";
-        content.style.left="250px";
-        menu.style.width="250px";
+        content.style.width="calc(100% - 230px)";
+        content.style.left="230px";
+        menu.style.width="230px";
     }else{
         header.classList.add('header-normal'); 
         menu.style.width="0";
