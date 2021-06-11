@@ -28,5 +28,5 @@
        <?php } ?>
     </table>
 
-    </div><!--content-plus2->
+    </div><!--content-plus2-->
 </div><!--content-box->

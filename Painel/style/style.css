@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'PT Sans', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body,html{
@@ -154,7 +154,7 @@ div.content{
     width: calc(100% - 230px);
     position: relative;
     left: 230px;
-    padding:2%;
+    padding:1%;
    
     transition: 0.5s;
 }
@@ -186,12 +186,21 @@ border-radius: 6px;
     border-radius: 5px;
 }
 
+
+
 .content-plus2{
     width: 100%;
     padding: 5px;
     color: white;
     padding-left:20px;
     
+}
+
+.content-plus3{
+    width: 100%;
+    color: white;
+    
+    padding-left:4px;
 }
 
 .content-plus2 label{
@@ -267,26 +276,26 @@ table th{
   background-color:#005db4 ;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
   padding: 8px;
-  width: 50%;
+  width: 30%;
 }
 
 table td{
-    width: 50%;
+    width: 30%;
     border-bottom: 2px solid #005db4;
     padding: 8px;
     text-align: left;
     background-color: #78a1c7 ;
-    color: white;
-    font-weight: bold;
-    font-size: 19px;
+    color: black;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 table{
     width: 100%;
-    margin: 20px 0;
+    margin: 10px 0;
    
 }
 
