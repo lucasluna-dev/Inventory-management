@@ -11,7 +11,7 @@
     define('USER','root');
     define('PASSWORD','');
     
-    define('INCLUDE_PATH','http://localhost/NewEstoque/');
+    define('INCLUDE_PATH','http://localhost/Inventory-management/');
     define('INCLUDE_PATH_PAINEL',INCLUDE_PATH.'Painel/');
 
     function activeBackground($par){

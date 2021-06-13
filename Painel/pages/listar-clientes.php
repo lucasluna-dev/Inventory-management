@@ -12,6 +12,7 @@
 ?>
 
 <div class="content-box">
+    <!--fazer o campo de pesquisa-->
     <div class="content-plus" ><h2><i class="fas fa-user"></i> Usuários do Painel<h2></div><!--content-title-->
     <div class="content-plus3">  
     <table style="width:100%;  text-align:center;">
