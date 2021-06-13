@@ -20,10 +20,11 @@
 
 ## Como você pode ajudar.
 
--<p>Algumas sessões já estão feitas como cadastro de clientes e usuarios, lista de cliente<p> <p>você pode contribuir em outras sessôes que ainda não foram feitas, como pedidos,estoque,movimentação, onde podemos ver a saída e entrada de produtos. ou apenas melhorando algum codigo.</p>
+<p>➡ Algumas sessões já estão feitas como cadastro de clientes e usuarios, lista de cliente<p> 
+<p>➡ você pode contribuir em outras sessôes que ainda não foram feitas, como pedidos,estoque,movimentação, onde podemos ver a saída e entrada de produtos. ou apenas melhorando algum codigo.</p>
 
--<p>E claro aceito dicas e críticas construtivas, fica a vontade. rs</p>
+<p>➡ E claro aceito dicas e críticas construtivas, fica a vontade. rs</p>
 
--<p>Aqui está o modelo do banco de dados. <a href=""><a></p> , user e senha é lucas e lucas.
+<p>➡ Aqui está o modelo do banco de dados. <a href="estoque.sql"><a>Database</p>, user e senha é lucas e lucas.
 
 
