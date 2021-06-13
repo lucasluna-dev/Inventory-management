@@ -25,6 +25,6 @@
 
 <p>➡ E claro aceito dicas e críticas construtivas, fica a vontade. rs</p>
 
-<p>➡ Aqui está o modelo do banco de dados. <a href="estoque.sql"><a>Database</p>, user e senha é lucas e lucas.
+<p>➡ Aqui está o modelo do banco de dados. <a href="estoque.sql">Database<a></p>.user e senha é lucas e lucas.
 
 
