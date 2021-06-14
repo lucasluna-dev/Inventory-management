@@ -7,7 +7,7 @@
 
 ## Imagens
 
-<img align="center" alt="Lucas-Luna" src="estoque02.png">
+<img style="text-alingn:center; width:50%; height:50%;" alt="Lucas-Luna" src="estoque02.png">
 <img align="center" alt="Lucas-Luna" src="estoque01.png">
 <img align="center" alt="Lucas-Luna" src="estoque03.png">
 
