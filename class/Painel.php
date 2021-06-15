@@ -61,6 +61,11 @@
             $delete->execute();
         }
 
+        public static function select($table,$query,$array){
+            $select = Mysql::connect()->prepare("SELECT * FROM `$table` WHERE $query ");
+            $select->execute($array);
+            return $select->fetch();
+        }
        
     }
 

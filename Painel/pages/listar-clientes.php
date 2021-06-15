@@ -24,7 +24,7 @@
         </tr>
         <?php foreach($puxarCliente as $key => $value){ ?>
         <tr>
-            <td><a title="Exluir" href="<?php echo INCLUDE_PATH_PAINEL;?>listar-clientes?delete=<?php echo $value['id']?>"><i style="color:red; " class="fas fa-trash-alt"></i></a>  <?php echo $value['nome']; ?> </br> <?php echo $value['telefone'];?></td>
+            <td><a title="Editar" href="<?php echo INCLUDE_PATH_PAINEL?>editar-cliente?id=<?php echo $value['id']?>"><i style="color:green;" class="fas fa-user-edit"></i></a>  |  <a title="Exluir" href="<?php echo INCLUDE_PATH_PAINEL;?>listar-clientes?delete=<?php echo $value['id']?>"><i style="color:red; " class="fas fa-trash-alt"></i></a>  <?php echo $value['nome']; ?> </br> <?php echo $value['telefone'];?></td>
             <td><?php echo $value['cpf'];?></td>
             <td><?php echo $value['endereco'];?></td>
             <td><?php echo $value['email'];?></td>
