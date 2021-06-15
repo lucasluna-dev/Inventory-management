@@ -296,7 +296,7 @@ table td{
 table{
     width: 100%;
     margin: 10px 0;
-   
+    padding: 40px;
 }
 
 textarea{
@@ -320,3 +320,43 @@ textarea{
     background-size: cover;
     position: relative;
 }
+form.search{
+    text-align: center;
+}
+form.search input[type="text"]{
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+    border: 2px solid silver;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+form.search input[type="submit"]{
+    width: 100%;
+    max-width: 130px;
+    padding: 5px;
+    margin-top: 0;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color:#005db4;
+    border: 0;
+    border-bottom: 3px solid #004280;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.pesquisar{
+    width: 100px;
+    padding: 10px;
+    background-color: silver;
+    margin-top: 30px;
+    margin-right: 2px;
+    border-radius: 7px;
+}
+

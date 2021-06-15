@@ -15,28 +15,35 @@
     <div class="content-plus" ><h2><i class="fas fa-user"></i> Usuários do Painel<h2></div><!--content-title-->
     <div style="margin-top:20px;" class="search">
   
-        <form  method="POST">
+        <form class="search"  method="POST">
         
-            <label >Nome do Cliente ou CPF</label>
-            <input style="width:250px;" type="text" name="cliente" placeholder="Insira o nome do cliente ou CPF">
+            <label style="font-size:19px;" >Digite Nome e Sobrenome do Cliente</label></br><hr>
+            <span class="pesquisar"><i class="fas fa-search"></i> Pesquisar</span><input  type="text" name="cliente" placeholder="Insira o nome do cliente ou CPF">
             <input style="cursor:pointer;" type="submit" name="action" value="Buscar">
         </form>
 
 
-        <?php
-            
-            if(isset($_POST['action'])){
-                $pesquisar = $_POST['cliente'];
-                $sql = Mysql::connect()->prepare("SELECT * From `estoque.cliente` WHERE nome  LIKE '%$pesquisar%' ");
-                $sql->execute();
-                $nomes =  $sql->fetchAll();
-                
-                foreach($nomes as $key => $value){
-                    echo 'Nome do cliente: '.$value['nome'],'  |  '.$value['cpf'];
-                }
-            }
-           
-        ?>
+                <?php
+                    if(isset($_POST['action'])){
+                        $pesquisar = $_POST['cliente'];
+                        $sql = Mysql::connect()->prepare("SELECT * From `estoque.cliente` WHERE nome  LIKE '%$pesquisar%' ORDER BY nome ASC");
+                        $sql->execute();
+                        $nomes =  $sql->fetchAll();
+                        
+                        foreach($nomes as $key => $value){
+                            
+                    }
+                    
+                ?> 
+                    <table>
+                    <td><a title="Editar" href="<?php echo INCLUDE_PATH_PAINEL?>editar-cliente?id=<?php echo $value['id']?>"><i style="color:green;" class="fas fa-user-edit"></i></a>  |  <a title="Exluir" href="<?php echo INCLUDE_PATH_PAINEL;?>listar-clientes?delete=<?php echo $value['id']?>"><i style="color:red; " class="fas fa-trash-alt"></i></a> <br> <?php echo $value['nome']; ?> </br>Telefone: <?php echo $value['telefone'];?></td>
+                    <td><?php echo $value['cpf'];?></td>
+                    <td><?php echo $value['endereco'];?></td>
+                    <td><?php echo $value['email'];?></td>
+                    
+                    </table>
+                <?php } ?>
+
     <div><!--search-->
 
     <div class="content-plus3">  
@@ -49,7 +56,9 @@
         </tr>
         <?php foreach($puxarCliente as $key => $value){ ?>
         <tr>
-            <td><a title="Editar" href="<?php echo INCLUDE_PATH_PAINEL?>editar-cliente?id=<?php echo $value['id']?>"><i style="color:green;" class="fas fa-user-edit"></i></a>  |  <a title="Exluir" href="<?php echo INCLUDE_PATH_PAINEL;?>listar-clientes?delete=<?php echo $value['id']?>"><i style="color:red; " class="fas fa-trash-alt"></i></a>  <?php echo $value['nome']; ?> </br> <?php echo $value['telefone'];?></td>
+                
+
+            <td><a title="Editar" href="<?php echo INCLUDE_PATH_PAINEL?>editar-cliente?id=<?php echo $value['id']?>"><i style="color:green;" class="fas fa-user-edit"></i></a>  |  <a title="Exluir" href="<?php echo INCLUDE_PATH_PAINEL;?>listar-clientes?delete=<?php echo $value['id']?>"><i style="color:red; " class="fas fa-trash-alt"></i></a> <br> <?php echo $value['nome']; ?> </br>Telefone: <?php echo $value['telefone'];?></td>
             <td><?php echo $value['cpf'];?></td>
             <td><?php echo $value['endereco'];?></td>
             <td><?php echo $value['email'];?></td>
