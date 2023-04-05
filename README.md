@@ -3,7 +3,7 @@
 
 <H1>Gestão de Inventario</H1>
 
-<P>Painel de controle para gestão de estoque, o projeto se econtra em desenvolvimento. Objetivo desse projeto é para controlar a saída e entrada de produtos, item mais vendido. Controlando o estoque da empresa.</P>
+<P>Painel de controle para gestão de estoque, o projeto se encontra em desenvolvimento. Objetivo desse projeto não é apenas para o usuário organizar o seus produtos, mas também gerarar relatórios bem como quantidade e saída de produto, alertar a data de vencimentos dos produtos e muitas outras informações que podem ser geradas através dos dados.</P>
 
 ## Imagens
 
@@ -21,9 +21,9 @@
 ## Como você pode ajudar.
 
 <p>➡ Algumas sessões já estão feitas como cadastro de clientes e usuarios, lista de cliente<p> 
-<p>➡ você pode contribuir em outras sessôes que ainda não foram feitas, como pedidos,estoque,movimentação, onde podemos ver a saída e entrada de produtos. ou apenas melhorando algum codigo.</p>
+<p>➡ você pode contribuir em outras sessôes que ainda não foram feitas, como pedidos,estoque,movimentação, onde podemos ver a saída e entrada de produtos. ou apenas melhorando algum código.</p>
 
-<p>➡ E claro aceito dicas e críticas construtivas, fica a vontade. rs</p>
+<p>➡ E claro aceito dicas e críticas construtivas.</p>
 
 <p>➡ Aqui está o modelo do banco de dados. <a href="estoque.sql">Database<a></p>.user e senha é lucas e lucas.
 
